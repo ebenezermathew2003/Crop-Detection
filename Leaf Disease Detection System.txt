@@ -1,0 +1,50 @@
+🌿 Leaf Disease Detection System
+
+This project uses deep learning techniques to detect diseases in plant leaves. The system is built using Python, TensorFlow, and Streamlit, and includes data preprocessing, model training, and a user interface for testing.
+
+📁 Project Structure
+LF_disease/
+│
+├── dataset/ # Complete dataset of leaf images
+│ ├── Class1/
+│ ├── Class2/
+│ └── ...
+│
+├── train_val/ # Contains training and validation data (after splitting)
+│ ├── train/
+│ └── val/
+│
+├── test/ # Contains test data
+│
+├── split_dataset.py # Script to split the dataset into train/val/test
+├── training.py # Script to train the model
+├── testing.py # Streamlit script to run the model for live predictions
+└── README.md # Project documentation
+
+⚙️ Setup Instructions
+
+1. Clone the repository or download the project folder.
+
+2. Install dependencies:
+
+pip install tensorflow streamlit scikit-learn numpy opencv-python matplotlib
+
+python split_dataset.py
+
+python training.py
+
+streamlit run testing.py
+
+Dataset preprocessing and automatic splitting.
+
+Model training and evaluation.
+
+Leaf disease detection using a web interface and recommendations of Bio- Friendly Fertiliser.
+
+User-friendly interface built with Streamlit.
+
+Gayatri C Bhagavantnavar
+Final Year Engineering Project
+
+
+
